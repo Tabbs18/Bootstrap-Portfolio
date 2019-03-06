@@ -1,0 +1,81 @@
+.me {
+    width: 100%;
+    margin: 10px;
+    padding: 3px;
+}
+
+.container {
+    color: black;
+    background: white;
+    height: max-content;
+    margin-top: 55px;
+    border: solid;
+    width: 100%;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+ h2 { text-align: auto;
+  text-emphasis: bold;
+}
+
+h1 {
+    margin-right: 48%;
+    border: solid;
+    background: white;
+    color: black;
+}
+
+form {
+    width: 75%;
+    margin-top: 15px;
+    padding: 3px;
+}
+
+.btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    margin: 14px;
+}
+
+img {
+    width: 45%;
+    padding: 5px;
+    margin: 2px;
+}
+
+.me {
+    width: 100%
+} 
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+body {
+    margin-bottom: 60px;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+  }
+
+  @media only screen and (min-width: 600px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    h1 {
+      width: 100%;
+    }
+  }
