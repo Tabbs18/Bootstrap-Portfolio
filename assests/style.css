@@ -4,10 +4,17 @@
     padding: 3px;
 }
 
+#animate {
 
-.style {
-  font-family: 'Srisakdi', cursive;
+  width: 100%;
+}
+
+p {
+  font-family: 'Dancing Script', cursive;
   color: black;
+  font-size: 18px;
+  font-style: bolder;
+  font-weight: bolder;
   }
 
 .container {
