@@ -49,6 +49,7 @@ div.background {
 
 .div-style{
   border: #222;
+  border-radius: 20px;
 }
 
 body {
